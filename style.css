@@ -65,6 +65,9 @@ nav {
 }
 
 @media (max-width: 999px) {
+  div#menu {
+    overflow-x: hidden;
+  }
   body {
     overflow-x: hidden;
   }
@@ -166,7 +169,7 @@ header#cab h1 {
 article p {
   font-size: 15pt;
   padding-top: 5px;
-  color: rgba(255, 255, 255, 0.685);
+  color: rgb(255, 255, 255);
 }
 
 h2 {
