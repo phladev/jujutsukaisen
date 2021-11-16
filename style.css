@@ -166,12 +166,13 @@ header#cab h1 {
 article p {
   font-size: 15pt;
   padding-top: 5px;
-  color: rgba(0, 0, 0, 1);
+  color: rgba(255, 255, 255, 0.685);
 }
 
 h2 {
   font-family: "FonteC", sans-serif;
   padding-top: 10px;
+  text-shadow: 1px 1px 1px rgba(162, 46, 230, .3);
 }
 
 footer{
@@ -190,6 +191,7 @@ div#msg {
   text-indent: 25px;
   margin-top: 10px;
   margin-bottom: 10px;
+  color: rgba(255, 255, 255, 0.685);
 }
 
 /* IMAGENS */
@@ -204,6 +206,10 @@ picture {
 img {
   margin-bottom: 5px;
   margin-top: 5px;
+}
+
+area {
+  cursor: pointer;
 }
 
 /* VIDEOS */
