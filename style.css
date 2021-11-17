@@ -71,6 +71,9 @@ nav {
 }
 
 @media (max-width: 999px) {
+  body {
+    overflow-x: hidden;
+  }
   .nav-list {
     position: absolute;
     top: 8vh;
@@ -170,7 +173,7 @@ header#cab h1 {
 article p {
   font-size: 15pt;
   padding-top: 5px;
-  color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 h2 {
