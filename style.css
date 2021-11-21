@@ -192,7 +192,7 @@ article p {
 h1{
   font-family: "FonteT", sans-serif;
   font-size: 50pt;
-  text-shadow: 1px 1px 1px rgba(162, 46, 230, .3);
+  text-shadow: 2px 2px 2px rgb(156, 33, 228);
   animation: txt 1.5s ease-in-out forwards;
   opacity: 0;
 }
@@ -208,7 +208,7 @@ h1{
 h2 {
   font-family: "FonteC", sans-serif;
   padding-top: 10px;
-  text-shadow: 1px 1px 1px rgba(162, 46, 230, .3);
+  text-shadow: 1.5px 1.5px 1.5px rgb(157, 33, 228);
   animation: txt 1.6s ease-in-out forwards;
   opacity: 0;
 }
@@ -260,6 +260,10 @@ img#mapaimg {
 
 /* VIDEOS */
 
+video {
+  margin: 10px 0px 10px 0px;
+}
+
 video#vid01 {
   display: block;
   position: relative;
@@ -309,3 +313,5 @@ div#video iframe {
   cursor: pointer;
   margin: 0px 2px 0px 2px;
 }
+
+/* TABELA */
