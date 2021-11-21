@@ -138,13 +138,15 @@ body {
 
 section {
   background: #23232e;
-  border-radius: 5px;
   padding: 15px;
   max-width: 1000px;
   min-width: 100px;
   margin: auto;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.315);
   margin-top: 8px;
+}
+#corpo {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.315);
+  border-radius: 5px;
 }
 section li {
   list-style: none;
@@ -249,10 +251,6 @@ img {
   margin-top: 5px;
   animation: paragrafo 1.5s 1.5s ease-in-out forwards;
   opacity: 0;
-}
-
-area {
-  cursor: pointer;
 }
 
 img#mapaimg {
