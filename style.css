@@ -247,6 +247,8 @@ picture {
 img {
   margin-bottom: 5px;
   margin-top: 5px;
+  animation: paragrafo 1.5s 1.5s ease-in-out forwards;
+  opacity: 0;
 }
 
 area {
