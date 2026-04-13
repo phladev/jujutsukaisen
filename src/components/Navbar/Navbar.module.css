@@ -1,0 +1,10 @@
+.navLink {
+  transition: color 0.3s;
+}
+
+.navLink[aria-current='page'] {
+  color: #ffffff;
+  font-weight: bold;
+  border-bottom: 2px solid var(--color-accent);
+  padding-bottom: 2px;
+}
